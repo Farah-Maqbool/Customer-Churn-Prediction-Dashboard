@@ -7,7 +7,7 @@ model = joblib.load("../artifact/churn_model.pkl")
 scaler = joblib.load("../artifact/scaler.pkl")
 
 st.set_page_config(page_title="Customer Churn Prediction", layout="wide")
-st.title("📊 Customer Churn Prediction")
+st.title("📊 Telecom Customer Churn Prediction")
 st.markdown("Predict if a customer is likely to **churn** based on input features.")
 
 # --- Group 1: Personal & Account Info ---
