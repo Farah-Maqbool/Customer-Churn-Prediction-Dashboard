@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # --- Load artifacts ---
-model = joblib.load("../artifact/churn_model.pkl")
-scaler = joblib.load("../artifact/scaler.pkl")
+model = joblib.load("artifact/churn_model.pkl")
+scaler = joblib.load("artifact/scaler.pkl")
 
 st.set_page_config(page_title="Customer Churn Prediction", layout="wide")
 st.title("📊 Telecom Customer Churn Prediction")
